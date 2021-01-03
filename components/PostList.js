@@ -6,7 +6,7 @@ export default function PostList({ posts }) {
   return (
     <div>
       {!posts && <div>No posts!</div>}
-      <ol>
+      <ul>
         {posts &&
           posts.map((post) => {
             return (
@@ -18,7 +18,7 @@ export default function PostList({ posts }) {
               </li>
             )
           })}
-      </ol>
+      </ul>
     </div>
   )
 }
