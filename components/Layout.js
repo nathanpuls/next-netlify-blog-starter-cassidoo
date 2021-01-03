@@ -34,7 +34,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         }
 
         a {
-          color: #00a395;
+          color: #2BA8E2;
         }
 
         .content {
