@@ -6,7 +6,7 @@ export default function Header() {
       <header className="header">
         <nav className="nav" role="navigation" aria-label="main navigation">
           <Link href="/">
-            <a>Wyr.es Blog</a>
+            <a>Wyr.es/blog</a>
           </Link>
           <Link href="/about">
             <a>About</a>
